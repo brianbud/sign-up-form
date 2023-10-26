@@ -1,5 +1,20 @@
+body {
+  display: flex;
+}
+
 .left {
-  width: 50%;
+  width: 40%;
   height: 100vh;
-  background-color: green;
+  background-color: aliceblue;
+}
+
+.right {
+  width: 70%;
+  height: 100vh;
+  background-color: bisque;
+}
+
+section {
+  height: 33%;
+  outline: 2px solid red;
 }
