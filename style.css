@@ -50,7 +50,8 @@ form {
   display: flex;
 }
 
-form div {
+form div div {
+  padding: 1rem;
   outline: 1px solid red;
 }
 
