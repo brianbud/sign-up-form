@@ -58,3 +58,11 @@ form div div {
 label {
   display: block;
 }
+
+.lower {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 2rem;
+  padding-top: 3rem;
+}
