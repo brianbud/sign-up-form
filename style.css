@@ -5,7 +5,7 @@ body {
 .left {
   width: 40%;
   height: 100vh;
-  background-color: aliceblue;
+  background-color: rgb(223, 231, 238);
   background: url(signup-cover.jpg) no-repeat;
   background-size: cover;
 }
@@ -13,10 +13,22 @@ body {
 .right {
   width: 70%;
   height: 100vh;
-  background-color: bisque;
+  background-color: rgb(245, 245, 245);
 }
 
 section {
   height: 33%;
   outline: 2px solid red;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  width: 80%;
+  outline: 2px solid red;
+  font-size: 2rem;
 }
