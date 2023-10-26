@@ -52,7 +52,6 @@ form {
 
 form div div {
   padding: 1rem;
-  outline: 1px solid red;
 }
 
 label {
@@ -65,4 +64,8 @@ label {
   gap: 2rem;
   padding-left: 2rem;
   padding-top: 3rem;
+}
+
+input:invalid {
+  border-color: red;
 }
