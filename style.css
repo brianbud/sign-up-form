@@ -23,12 +23,37 @@ section {
 
 .hero {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .hero-text {
+  margin-left: 2rem;
   width: 80%;
   outline: 2px solid red;
   font-size: 2rem;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid green;
+}
+
+h2 {
+  margin-left: 2rem;
+}
+
+form {
+  margin-left: 2rem;
+  gap: 2rem;
+  display: flex;
+}
+
+form div {
+  outline: 1px solid red;
+}
+
+label {
+  display: block;
 }
