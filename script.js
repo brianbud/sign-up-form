@@ -1,12 +1,13 @@
 const btn = document.querySelector("button");
 const password = document.querySelector("#pw");
 const confirmPw = document.querySelector("#pw-confirm");
+const errorMsg = document.querySelector(".error");
 
 confirmPw.addEventListener("input", () => {
   if (password.value === confirmPw.value) {
-    console.log("pw matches");
+    errorMsg.style.display = "none";
   } else {
-    console.log(" not matching");
+    errorMsg.style.display = "block";
   }
 });
 
