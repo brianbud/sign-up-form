@@ -72,6 +72,7 @@ form div div {
 
 label {
   display: block;
+  text-transform: uppercase;
 }
 
 .lower {
@@ -82,8 +83,12 @@ label {
   padding-top: 3rem;
 }
 
-input:valid {
-  border-color: rgb(5, 249, 66);
+input {
+  padding-left: 1rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 8px;
+  border: none;
 }
 
 form div div {
@@ -92,5 +97,26 @@ form div div {
 }
 
 .error {
+  font-size: 1rem;
+  color: red;
   display: none;
+}
+
+button[type="submit"] {
+  color: white;
+  font-weight: 800;
+  border: none;
+  padding: 1rem;
+  background-color: red;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: rgb(237, 73, 73);
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+a {
+  color: red;
 }
