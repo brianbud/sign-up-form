@@ -8,7 +8,6 @@ body {
 }
 
 .dot {
-  font-size: 3rem;
   color: red;
 }
 
@@ -21,15 +20,10 @@ body {
 }
 
 .right {
+  display: flex;
+  flex-direction: column;
   width: 70%;
   height: 100vh;
-  background-color: rgb(245, 245, 245);
-}
-
-section {
-  border-left: 10px solid red;
-  color: white;
-  height: 33%;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
@@ -37,6 +31,12 @@ section {
     rgba(103, 103, 103, 1) 100%,
     rgba(251, 251, 251, 1) 100%
   );
+}
+
+section {
+  border-left: 10px solid red;
+  color: white;
+  height: 33%;
 }
 
 .hero {
