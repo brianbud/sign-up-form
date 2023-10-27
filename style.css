@@ -1,5 +1,15 @@
 body {
   display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.nothing-name {
+  font-weight: 800;
+}
+
+.dot {
+  font-size: 3rem;
+  color: red;
 }
 
 .left {
