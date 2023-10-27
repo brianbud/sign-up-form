@@ -20,6 +20,7 @@ body {
 }
 
 .right {
+  border-left: 10px solid red;
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -34,7 +35,6 @@ body {
 }
 
 section {
-  border-left: 10px solid red;
   color: white;
   height: 33%;
 }
@@ -110,14 +110,16 @@ button[type="submit"] {
   font-weight: 800;
   border: none;
   padding: 1rem;
-  background-color: red;
+  border: 5px solid red;
+  background-color: black;
   border-radius: 8px;
 }
 
 button:hover {
-  background-color: rgb(237, 73, 73);
+  background-color: red;
+  color: black;
   cursor: pointer;
-  font-size: 1.1rem;
+  transition: 0.3s;
 }
 
 a {
