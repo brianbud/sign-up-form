@@ -6,8 +6,12 @@ const errorMsg = document.querySelector(".error");
 confirmPw.addEventListener("input", () => {
   if (password.value === confirmPw.value) {
     errorMsg.style.display = "none";
+    password.style.borderColor = "black";
+    confirmPw.style.borderColor = "black";
   } else {
     errorMsg.style.display = "block";
+    password.style.borderColor = "red";
+    confirmPw.style.borderColor = "red";
   }
 });
 
