@@ -6,8 +6,8 @@ body {
   width: 40%;
   height: 100vh;
   background-color: rgb(223, 231, 238);
-  background: url(signup-cover.jpg) no-repeat;
-  background-size: cover;
+  background: url(nothing.png);
+  background-size: center;
 }
 
 .right {
@@ -17,8 +17,16 @@ body {
 }
 
 section {
+  border-left: 10px solid red;
+  color: white;
   height: 33%;
-  outline: 2px solid red;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(103, 103, 103, 1) 100%,
+    rgba(251, 251, 251, 1) 100%
+  );
 }
 
 .hero {
@@ -29,7 +37,6 @@ section {
 .hero-text {
   margin-left: 2rem;
   width: 80%;
-  outline: 2px solid red;
   font-size: 2rem;
 }
 
@@ -37,7 +44,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid green;
 }
 
 h2 {
